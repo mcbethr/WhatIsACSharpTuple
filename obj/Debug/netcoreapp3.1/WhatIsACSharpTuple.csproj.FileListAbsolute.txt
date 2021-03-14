@@ -11,3 +11,16 @@ C:\code\WhatIsACSharpTuple\obj\Debug\netcoreapp3.1\WhatIsACSharpTuple.csproj.Cor
 C:\code\WhatIsACSharpTuple\obj\Debug\netcoreapp3.1\WhatIsACSharpTuple.dll
 C:\code\WhatIsACSharpTuple\obj\Debug\netcoreapp3.1\WhatIsACSharpTuple.pdb
 C:\code\WhatIsACSharpTuple\obj\Debug\netcoreapp3.1\WhatIsACSharpTuple.genruntimeconfig.cache
+C:\Users\admin\Documents\GitHub\WhatIsACSharpTuple\obj\Debug\netcoreapp3.1\WhatIsACSharpTuple.csprojAssemblyReference.cache
+C:\Users\admin\Documents\GitHub\WhatIsACSharpTuple\obj\Debug\netcoreapp3.1\WhatIsACSharpTuple.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\GitHub\WhatIsACSharpTuple\obj\Debug\netcoreapp3.1\WhatIsACSharpTuple.AssemblyInfo.cs
+C:\Users\admin\Documents\GitHub\WhatIsACSharpTuple\obj\Debug\netcoreapp3.1\WhatIsACSharpTuple.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\GitHub\WhatIsACSharpTuple\obj\Debug\netcoreapp3.1\WhatIsACSharpTuple.dll
+C:\Users\admin\Documents\GitHub\WhatIsACSharpTuple\obj\Debug\netcoreapp3.1\WhatIsACSharpTuple.pdb
+C:\Users\admin\Documents\GitHub\WhatIsACSharpTuple\bin\Debug\netcoreapp3.1\WhatIsACSharpTuple.exe
+C:\Users\admin\Documents\GitHub\WhatIsACSharpTuple\bin\Debug\netcoreapp3.1\WhatIsACSharpTuple.deps.json
+C:\Users\admin\Documents\GitHub\WhatIsACSharpTuple\bin\Debug\netcoreapp3.1\WhatIsACSharpTuple.runtimeconfig.json
+C:\Users\admin\Documents\GitHub\WhatIsACSharpTuple\bin\Debug\netcoreapp3.1\WhatIsACSharpTuple.runtimeconfig.dev.json
+C:\Users\admin\Documents\GitHub\WhatIsACSharpTuple\bin\Debug\netcoreapp3.1\WhatIsACSharpTuple.dll
+C:\Users\admin\Documents\GitHub\WhatIsACSharpTuple\bin\Debug\netcoreapp3.1\WhatIsACSharpTuple.pdb
+C:\Users\admin\Documents\GitHub\WhatIsACSharpTuple\obj\Debug\netcoreapp3.1\WhatIsACSharpTuple.genruntimeconfig.cache

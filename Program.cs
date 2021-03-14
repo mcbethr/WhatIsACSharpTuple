@@ -10,8 +10,6 @@ namespace WhatIsACSharpTuple
     {
         static async Task Main(string[] args)
         {
-           
-
             FindCop FC = new FindCop();
 
             //Try with non Async Classic Tuple - This isn't that useful
@@ -33,11 +31,10 @@ namespace WhatIsACSharpTuple
             PrintCopData("ArrayList ", (Point)CopList[0], (int)CopList[1], (int)CopList[2]);
 
             ///Try with a Tuple
-            //(Point Location, int Bearing, int Distance) = await FindCop.FindClosestCopValueTupleAsync();
-            
-            ///You can also do this
-            var(Location, Bearing, Distance) = await FindCop.FindClosestCopValueTupleAsync();
+            (Point Location, int Bearing, int Distance) = await FindCop.FindClosestCopValueTupleAsync();
+
             PrintCopData("SearchForCopTuple", Location, Bearing, Distance);
+
  
         }
 

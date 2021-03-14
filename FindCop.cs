@@ -10,14 +10,37 @@ namespace WhatIsACSharpTuple
     public class FindCop
     {
 
-        #region Modern fun with Tuples
+        #region Fun with Modern Value Tuples
 
         public void ModernFunWithTuples()
         {
-            (int Id, string FirstName, string LastName, int Vek, int City, int Zip, int Country, int Street, int Firm, int Age, int Bank, bool IsActive) person =
-(1, "Bill", "Gates", 4, 5, 6, 7, 8, 9, 10, 11, true);
+
+            (int Id, string Text) MyTuple = (1, "Hello tuple");
+            string WelcomeText = MyTuple.Text;
+
+            MyTuple.Text = "New Hello Tuple";
+
+
+            (int Id, string FirstName, string LastName, string gender, int City, int Zip, int Country, int Street, int Firm, int Age, int Bank, bool IsActive) person =
+       (1, "Ryan", "McBeth", "Male", 5, 6, 7, 8, 9, 10, 11, true);
             person.FirstName = "ryan";
 
+            var MyTupleWithVar = (id: 1, text: "Hello tuple");
+
+
+            (int Id, string Text) MyTuple2 = (1, "New Hello Tuple");
+
+            ///Totally allowed
+            if (MyTuple.Equals(MyTuple2))
+            {
+                int i = 1;
+            }
+
+            ///Totally allowed
+            if (MyTuple == MyTuple2)
+            {
+                int i = 1;
+            }
         }
 
         #endregion
@@ -48,11 +71,12 @@ namespace WhatIsACSharpTuple
         {
             Cop MyCop = SearchForClosestCop();
 
-            ///This is immutable 
-            var MyTuple = Tuple.Create(1, 2, 3);
-            ///MyTuple.Item1 = 2;
+            Tuple<Point, int, int> CopTuple = new Tuple<Point, int, int>(MyCop.Position,MyCop.Bearing,MyCop.Distance);
 
-            return (Tuple.Create(MyCop.Position, MyCop.Bearing, MyCop.Distance));
+            //Can't do this.
+            //Tuple<int, int, int, int, int, int, int, int, int> tuple = new Tuple<int, int, int, int, int, int, int, int, int>(1, 2, 3, 4, 5, 6, 7, 8, 9)
+
+            return (Tuple.Create(CopTuple.Item1, CopTuple.Item2, CopTuple.Item3));
         }
         #endregion
 
@@ -89,7 +113,7 @@ namespace WhatIsACSharpTuple
         #region Find Cop Async And pass back a class
 
         ///Can't do this
-        ///public static async Task<Cop> SearchForClosestCopAsync(out Point myCopLocation, out int bearing, int distance)
+        //public static async Task SearchForClosestCopAsync(out Point myCopLocation, out int bearing, out int distance)
         public static async Task<Cop> FindClosestCopClassAsync()
         {
             Cop MyCop = new Cop();
@@ -135,27 +159,58 @@ namespace WhatIsACSharpTuple
         }
         #endregion
         
+
+
+
+
+
+
+
+
+
+
+
+
         #region Find Cop Async and pass back ValueTuple
-        public static async Task<ValueTuple<Point, int,int>> FindClosestCopValueTupleAsync()
+        public static async Task<ValueTuple<Point, int, int>> FindClosestCopValueTupleAsync()
         {
-            
 
             await Task.Run(() =>
             {
-                for (int i = 0; i < 0; i++)
+                for (int i = 0; i < 1; i++)
                 {
                     ///Business logic to Look for cops
+                    //Load up the values or tuple
                 }
             });
 
-            (Point Location,int Bearing, int Distance) MyCop = (new Point(1, 2), 90, 200);
+            ///This is hardcoded for the demo
+            Point _Location = (new Point(1, 2));
+            int _Bearing = 90;
+            int _Distance = 200;
+
+            (Point Location, int Bearing, int Distance) MyCop = (_Location, _Bearing, _Distance);
 
             return MyCop;
-            //return (new ValueTuple<Point, int, int>(new Point(1, 2), 90, 200));
         }
 
         #endregion
         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         /// <summary>
         /// Search for the closet cop using early methods

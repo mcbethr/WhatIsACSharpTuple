@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\code\\WhatIsACSharpTuple\\WhatIsACSharpTuple.csproj": {}
+    "C:\\Users\\admin\\Documents\\GitHub\\WhatIsACSharpTuple\\WhatIsACSharpTuple.csproj": {}
   },
   "projects": {
-    "C:\\code\\WhatIsACSharpTuple\\WhatIsACSharpTuple.csproj": {
+    "C:\\Users\\admin\\Documents\\GitHub\\WhatIsACSharpTuple\\WhatIsACSharpTuple.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\code\\WhatIsACSharpTuple\\WhatIsACSharpTuple.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Documents\\GitHub\\WhatIsACSharpTuple\\WhatIsACSharpTuple.csproj",
         "projectName": "WhatIsACSharpTuple",
-        "projectPath": "C:\\code\\WhatIsACSharpTuple\\WhatIsACSharpTuple.csproj",
-        "packagesPath": "C:\\Users\\ryanm\\.nuget\\packages\\",
-        "outputPath": "C:\\code\\WhatIsACSharpTuple\\obj\\",
+        "projectPath": "C:\\Users\\admin\\Documents\\GitHub\\WhatIsACSharpTuple\\WhatIsACSharpTuple.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Documents\\GitHub\\WhatIsACSharpTuple\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ryanm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
